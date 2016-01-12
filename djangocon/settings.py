@@ -168,9 +168,9 @@ LOGGING = {
 TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 
 # Import the local settings for the current machine
-try:
-    from djangocon.local_settings import *
-except Exception, e:
-	pass
-    # logging.debug("local_settings not found or contains errors(%s). Skipping local_settings.. " % e)
+# try:
+# from djangocon.local_settings import *
+# except Exception, e:
+# 	pass
+#     # logging.debug("local_settings not found or contains errors(%s). Skipping local_settings.. " % e)
 

@@ -20,7 +20,7 @@ __pycache__/
 *.pubxml
 
 # Auto-generated virtual environment
-/env/
+/env_djangocon/
 
 # Auto-generated web.config
 /web.config
